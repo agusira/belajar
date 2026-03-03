@@ -24,7 +24,7 @@
 #    See the documentation for each action used below for the recommended IAM policies for this IAM user,
 #    and best practices on handling the access key credentials.
 
-name: Deploy Leantime
+name: Deploy
 
 on:
   push:
@@ -45,7 +45,7 @@ permissions:
 
 jobs:
   deploy:
-    name: Deploy
+    name: Deploy Leantime
     runs-on: ubuntu-latest
     environment: production
 
